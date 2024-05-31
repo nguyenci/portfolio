@@ -1,47 +1,43 @@
+/* eslint-disable react/no-unescaped-entities */
+/* eslint-disable no-unused-vars */
 import { useState } from 'react'
-import { Container, Nav, Navbar, NavDropdown, Row, Col } from 'react-bootstrap'
+import { Container, Nav, Navbar, NavDropdown, Row, Col, Button } from 'react-bootstrap'
 import { Link, Outlet } from "react-router-dom"
 
-// import '/src/css/Home.css'
+import NavBar from './components/NavBar.jsx'
+
+import '/src/css/Home.css'
 import '/src/css/About.css'
 
 function About() {
     return (
         <>
 
-            <Navbar>
-                <Container>
-                    <Nav>
-                        <Nav.Link as={Link} to="/"> Home </Nav.Link>
-                        <Nav.Link as={Link} to="."> About </Nav.Link>
-                        <Nav.Link as={Link} to="/projects">Projects</Nav.Link>
-                        <Nav.Link style={{ marginRight: '30px' }} as={Link} to="/contact">Contact</Nav.Link>
-                    </Nav>
-                </Container>
-            </Navbar>
-
-            <div style={{ padding: '2rem' }}></div>
+            <NavBar />
 
             <div className='title'>
                 <h1>I'm Cinthya.</h1>
             </div>
 
-            <div className='resume'>
-                {/* Change how this looks */}
-                <a href="https://example.com"> RESUME </a> 
+            <div>
+                <a href='https://docs.google.com/document/d/1woOihEDwL7uwB-VvrNdovDhoJpQYoE-AnxLe6WzNUvM/edit?usp=sharing' target="_blank" rel="noreferrer">
+                    <Button variant="outline-success"> Resume </Button>{' '}
+                </a>
             </div>
 
-                <Container>
-                    <Row >
-                        <Col xs={12} md={6}>
-                            {/* <img src='src/assets/grad.JPG' alt="My grandparents and I after commencement." className='image' /> */}
-                            <div style={{width: '300px', height: '300px', backgroundColor: "red"}}></div>
-                        </Col>
-                        <Col>
-                            <p className='about-me'> poop </p>
-                        </Col>
-                    </Row>
-                </Container>
+            <div style={{ margin: '4.3rem' }}></div>
+
+            <Container style={{ maxWidth: '1300px' }}>
+                <Row >
+                    <Col xs={12} md={6}>
+                        <img src='src/assets/grad.JPG' alt="My grandparents and I after commencement." className='image' />
+                    </Col>
+                    <Col>
+                        <h2 className='about-me-title'> Poop </h2>
+                        <p className='about-me'> More poop </p>
+                    </Col>
+                </Row>
+            </Container>
 
         </>
     )
