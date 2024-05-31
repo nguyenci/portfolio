@@ -2,7 +2,6 @@ import { useState } from 'react'
 import { Container, Nav, Navbar, NavDropdown, Row, Col } from 'react-bootstrap'
 import { Link, Outlet } from "react-router-dom"
 
-
 import '/src/css/Home.css'
 
 function Home() {
