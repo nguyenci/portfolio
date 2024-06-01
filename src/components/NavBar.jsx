@@ -11,10 +11,10 @@ function NavBar() {
         <Navbar>
                 <Container>
                     <Nav >
-                        <Nav.Link className="navlink-style" href="/"> Home </Nav.Link>
-                        <Nav.Link className="navlink-style" href="/about"> About </Nav.Link>
-                        <Nav.Link className="navlink-style" href="/projects">Projects</Nav.Link>
-                        <Nav.Link className="navlink-style" style={{ marginRight: '30px' }} href="/contact">Contact</Nav.Link>
+                        <Nav.Link className="navlink-style" href="/portfolio/"> Home </Nav.Link>
+                        <Nav.Link className="navlink-style" href="/portfolio/about"> About </Nav.Link>
+                        <Nav.Link className="navlink-style" href="./projects">Projects</Nav.Link>
+                        <Nav.Link className="navlink-style" style={{ marginRight: '30px' }} href="./contact">Contact</Nav.Link>
                     </Nav>
                 </Container>
             </Navbar>
