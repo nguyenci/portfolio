@@ -13,6 +13,7 @@ function App() {
   return (
     <>
       <BrowserRouter>
+      { /* Have to use absolute paths */ }
         <Routes>
           <Route path="/portfolio/" element={<Home />} />
           <Route index element={<Home />} />

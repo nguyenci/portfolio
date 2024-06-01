@@ -28,7 +28,7 @@ function Home() {
                 <Row>
                     <Col xs={12} md={6} lg={4} xl={4} xxl={4}>
                         <Nav.Link as={Link} to="about">
-                            <img src='.\src\assets\girl.png' className="logo" alt="Girl icon created by Victoruler - https://www.flaticon.com/free-icons/girl" />
+                            <img src='\portfolio\src\assets\girl.png' className="logo" alt="Girl icon created by Victoruler - https://www.flaticon.com/free-icons/girl" />
                         </Nav.Link>
                     </Col>
                     <Col xs={12} md={6} lg={4} xl={4} xxl={4}>
