@@ -45,11 +45,6 @@ function Home() {
                 </Row>
             </Container>
 
-            <div style={{ textAlign: 'right', justifyContent: 'end', width: '100%' }}>
-                <p className='react-vite'> Made with React and Vite </p>
-            </div>
-
-
         </>
     )
 }

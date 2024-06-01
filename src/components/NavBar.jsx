@@ -7,9 +7,10 @@ function NavBar() {
 
     return (
         <>
+        <div style={{paddingBottom: '120px'}}>
         <Navbar>
                 <Container>
-                    <Nav>
+                    <Nav >
                         <Nav.Link className="navlink-style" href="/"> Home </Nav.Link>
                         <Nav.Link className="navlink-style" href="/about"> About </Nav.Link>
                         <Nav.Link className="navlink-style" href="/projects">Projects</Nav.Link>
@@ -17,8 +18,7 @@ function NavBar() {
                     </Nav>
                 </Container>
             </Navbar>
-            <div style={{ padding: '4.3rem' }}></div>
-
+            </div>
         </>
     )
 }

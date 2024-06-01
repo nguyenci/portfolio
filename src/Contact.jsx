@@ -10,7 +10,8 @@ function Contact() {
         <>
             <NavBar />
 
-            <div className='title'><h1>Contact</h1></div>
+            <div className='title'><h1>Contact.</h1></div>
+            <p> Under construction </p>
         </>
     )
 }
