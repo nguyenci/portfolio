@@ -21,7 +21,7 @@ function About() {
 
             <div>
                 <a href='https://docs.google.com/document/d/1woOihEDwL7uwB-VvrNdovDhoJpQYoE-AnxLe6WzNUvM/edit?usp=sharing' target="_blank" rel="noreferrer">
-                    <Button variant="outline-success"> Resume </Button>{' '}
+                    <Button variant="dark"> Resume </Button>{' '}
                 </a>
             </div>
 
