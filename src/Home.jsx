@@ -27,18 +27,18 @@ function Home() {
                 <Row>
                     <Col xs={12} md={6} lg={4} xl={4} xxl={4}>
                         <Nav.Link as={Link} to="about">
-                            <img src='portfolio/src/assets/girl.png' className="logo" alt="Girl icon created by Victoruler" />
+                            <img src='girl.png' className="logo" alt="Girl icon created by Victoruler" />
                         </Nav.Link>
                     </Col>
                     <Col xs={12} md={6} lg={4} xl={4} xxl={4}>
                         <Nav.Link as={Link} to="projects">
-                            <img src='.\src\assets\programming-language.png' className="logo" alt="Programming language icons created by Bamicon" />
+                            <img src='/assets/programming-language.png' className="logo" alt="Programming language icons created by Bamicon" />
                         </Nav.Link>
                     </Col >
 
                     <Col xs={12} md={6} lg={4} xl={4} xxl={4}>
                         <Nav.Link as={Link} to="contact">
-                            <img src='.\src\assets\communicate.png' className="logo" alt="Contact icons created by srip" />
+                            <img src='/assets/communicate.png' className="logo" alt="Contact icons created by srip" />
                         </Nav.Link>
                     </Col>
                 </Row>
