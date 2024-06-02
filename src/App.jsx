@@ -12,10 +12,9 @@ import '/src/css/App.css'
 function App() {
   return (
     <>
-      <BrowserRouter  basename="portfolio">
-      { /* Have to use absolute paths */ }
+      <BrowserRouter  basename={"/"}>
         <Routes>
-          <Route path="/portfolio/" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route index element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="projects" element={<Projects />} />
