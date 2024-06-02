@@ -15,7 +15,7 @@
 .navlink-style {
     font-size: 1rem;
     letter-spacing: 1px;
-    color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255) !important;
     text-transform: uppercase;
     margin-inline: 10px;
 
