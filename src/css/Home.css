@@ -8,6 +8,10 @@
     justify-content: end;
 }
 
+.nav-link {
+  color: #ffffff;
+}
+
 .navlink-style {
     font-size: 1rem;
     letter-spacing: 1px;

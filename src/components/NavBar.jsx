@@ -1,5 +1,4 @@
-import { Container, Nav, Navbar, NavDropdown, Row, Col } from 'react-bootstrap'
-import { Link, Outlet } from "react-router-dom"
+import { Container, Nav, Navbar } from 'react-bootstrap'
 
 import '/src/css/Home.css'
 
@@ -14,7 +13,7 @@ function NavBar() {
                         <Nav.Link className="navlink-style" href="/portfolio/"> Home </Nav.Link>
                         <Nav.Link className="navlink-style" href="/portfolio/about"> About </Nav.Link>
                         <Nav.Link className="navlink-style" href="/portfolio/projects">Projects</Nav.Link>
-                        <Nav.Link className="navlink-style" style={{ marginRight: '30px' }} href="/contact">Contact</Nav.Link>
+                        <Nav.Link className="navlink-style" style={{ marginRight: '30px' }} href="/portfolio/contact">Contact</Nav.Link>
                     </Nav>
                 
                 </Container>

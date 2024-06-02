@@ -39,7 +39,7 @@ function Projects() {
 
                     <Col>
                         <Card>
-                            <Card.Img variant="top" src="src/assets/placeholder.jpg" />
+                            <Card.Img variant="top" src={placeholder} />
                             <Card.Body>
                                 <Card.Title>Example 2</Card.Title>
                                 <Card.Text>
@@ -53,7 +53,7 @@ function Projects() {
 
                     <Col>
                         <Card>
-                            <Card.Img variant="top" src="src/assets/placeholder.jpg" />
+                            <Card.Img variant="top" src={placeholder} />
                             <Card.Body>
                                 <Card.Title>Example 3</Card.Title>
                                 <Card.Text>
@@ -67,7 +67,7 @@ function Projects() {
 
                     <Col>
                         <Card>
-                            <Card.Img variant="top" src="src/assets/placeholder.jpg" />
+                            <Card.Img variant="top" src={placeholder} />
                             <Card.Body>
                                 <Card.Title>Example 4</Card.Title>
                                 <Card.Text>

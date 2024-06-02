@@ -26,7 +26,7 @@ function Home() {
             <h3 className='header'> engaging, accessible, and user-centric. </h3>
 
             <div style={{ margin: '6rem' }}></div>
-            <p> Click the icons below to explore more about me and my work! </p>
+            <p> Click the icons below to explore more about me and my work! (WIP) </p>
 
             <Container style={{ maxWidth: '500px' }}>
                 <Row>
