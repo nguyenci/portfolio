@@ -6,8 +6,8 @@ import { Link, Outlet } from "react-router-dom"
 
 import NavBar from './components/NavBar.jsx'
 import '/src/css/Home.css'
-import {programming_language} from './assets/programming-language.png'
-import {communicate} from './assets/communicate.png'
+import programming_language from './assets/programming-language.png'
+import communicate from './assets/communicate.png'
 
 function Home() {
     return (
