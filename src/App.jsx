@@ -12,14 +12,14 @@ import '/src/css/App.css'
 function App() {
   return (
     <>
-      <BrowserRouter  basename={process.env.PUBLIC_URL}>
+      <BrowserRouter  basename="portfolio">
       { /* Have to use absolute paths */ }
         <Routes>
           <Route path="/portfolio/" element={<Home />} />
           <Route index element={<Home />} />
-          <Route path="/portfolio/about" element={<About />} />
-          <Route path="/portfolio/projects" element={<Projects />} />
-          <Route path="/portfolio/contact" element={<Contact />} />
+          <Route path="about" element={<About />} />
+          <Route path="projects" element={<Projects />} />
+          <Route path="contact" element={<Contact />} />
         </Routes>
       </BrowserRouter>
 
