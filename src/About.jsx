@@ -12,9 +12,7 @@ import '/src/css/About.css'
 function About() {
     return (
         <>
-
             <NavBar />
-            
 
             <div className='title'>
                 <h1>I'm Cinthya.</h1>
@@ -31,7 +29,7 @@ function About() {
             <Container style={{ maxWidth: '1300px' }}>
                 <Row >
                     <Col xs={12} md={6}>
-                        <img src='src/assets/grad.JPG' alt="My grandparents and I after commencement." className='image' />
+                        <img src='/portfolio/src/assets/grad.JPG' alt="My grandparents and I after commencement." className='image' />
                     </Col>
                     <Col>
                         <h2 className='about-me-title'> Poop </h2>
