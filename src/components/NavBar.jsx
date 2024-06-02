@@ -13,7 +13,7 @@ function NavBar() {
                     <Nav >
                         <Nav.Link className="navlink-style" href="/portfolio/"> Home </Nav.Link>
                         <Nav.Link className="navlink-style" href="/portfolio/about"> About </Nav.Link>
-                        <Nav.Link className="navlink-style" href="/projects">Projects</Nav.Link>
+                        <Nav.Link className="navlink-style" href="/portfolio/projects">Projects</Nav.Link>
                         <Nav.Link className="navlink-style" style={{ marginRight: '30px' }} href="/contact">Contact</Nav.Link>
                     </Nav>
                 
