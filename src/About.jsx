@@ -1,13 +1,14 @@
-/* eslint-disable react/no-unescaped-entities */
-/* eslint-disable no-unused-vars */
-import { useState } from 'react'
-import { Container, Nav, Navbar, NavDropdown, Row, Col, Button } from 'react-bootstrap'
-import { Link, Outlet } from "react-router-dom"
+import { Container, Row, Col, Button } from 'react-bootstrap'
 
+// Components
 import NavBar from './components/NavBar.jsx'
 
+// Styles
 import '/src/css/Home.css'
 import '/src/css/About.css'
+
+// Images
+import grad from './assets/grad.JPG'
 
 function About() {
     return (
@@ -29,7 +30,7 @@ function About() {
             <Container style={{ maxWidth: '1300px' }}>
                 <Row >
                     <Col xs={12} md={6}>
-                        <img src='./assets/grad.JPG' alt="My grandparents and I after commencement." className='image' />
+                        <img src={grad} alt="My grandparents and I after commencement." className='image' />
                     </Col>
                     <Col>
                         <h2 className='about-me-title'> Poop </h2>

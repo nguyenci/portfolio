@@ -1,18 +1,21 @@
-/* eslint-disable react/no-unescaped-entities */
-/* eslint-disable no-unused-vars */
-import { useState } from 'react'
-import { Container, Nav, Navbar, NavDropdown, Row, Col } from 'react-bootstrap'
-import { Link, Outlet } from "react-router-dom"
+import { Container, Nav, Row, Col } from 'react-bootstrap'
+import { Link } from "react-router-dom"
 
+// Components
 import NavBar from './components/NavBar.jsx'
+
+// Styles
 import '/src/css/Home.css'
+
+// Images
+import girl from './assets/girl.png'
 import programming_language from './assets/programming-language.png'
 import communicate from './assets/communicate.png'
 
 function Home() {
     return (
         <>
-          <NavBar />
+            <NavBar />
             <Container className='title'>
                 <h1 className='header' > Hi! I'm Cinthya.</h1>
                 <h2 className='header' style={{ fontStyle: 'italic' }}> An aspiring software developer.</h2>
@@ -29,7 +32,7 @@ function Home() {
                 <Row>
                     <Col xs={12} md={6} lg={4} xl={4} xxl={4}>
                         <Nav.Link as={Link} to="/portfolio/about">
-                            <img src='./assets/girl.png' className="logo" alt="Girl icon created by Victoruler" />
+                            <img src={girl} className="logo" alt="Girl icon created by Victoruler" />
                         </Nav.Link>
                     </Col>
                     <Col xs={12} md={6} lg={4} xl={4} xxl={4}>

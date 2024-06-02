@@ -1,12 +1,17 @@
 import { useState } from 'react'
 import { Container, Card, Row, Col } from 'react-bootstrap'
-
 import { Link, Outlet } from "react-router-dom"
 
+// Components
 import NavBar from './components/NavBar.jsx'
+
+// Styles
 import '/src/css/Home.css'
 import '/src/css/App.css'
 import '/src/css/Projects.css'
+
+// Images
+import placeholder from './assets/placeholder.jpg'
 
 function Projects() {
     return (
@@ -20,7 +25,7 @@ function Projects() {
                 <Row style={{}} xs={12} md={2} lg={2} xl={2} xxl={2}>
                     <Col>
                         <Card>
-                            <Card.Img variant="top" src="src/assets/placeholder.jpg" />
+                            <Card.Img variant="top" src={placeholder} />
                             <Card.Body>
                                 <Card.Title>Example 1</Card.Title>
                                 <Card.Text>
