@@ -14,6 +14,7 @@ function About() {
         <>
 
             <NavBar />
+            
 
             <div className='title'>
                 <h1>I'm Cinthya.</h1>
@@ -38,7 +39,6 @@ function About() {
                     </Col>
                 </Row>
             </Container>
-
         </>
     )
 }

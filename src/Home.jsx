@@ -10,8 +10,7 @@ import '/src/css/Home.css'
 function Home() {
     return (
         <>
-            <NavBar />
-
+          <NavBar />
             <Container className='title'>
                 <h1 className='header' > Hi! I'm Cinthya.</h1>
                 <h2 className='header' style={{ fontStyle: 'italic' }}> An aspiring software developer.</h2>
@@ -44,7 +43,6 @@ function Home() {
                     </Col>
                 </Row>
             </Container>
-
         </>
     )
 }
