@@ -12,7 +12,7 @@ import '/src/css/App.css'
 function App() {
   return (
     <>
-      <BrowserRouter  basename={"/"}>
+      <BrowserRouter  basename={"/portfolio"}>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route index element={<Home />} />
