@@ -2,5 +2,38 @@
   text-align: center;
   align-items: center;
   justify-content: center;
-  height: 100dvh;
+  min-height: 100dvh;
+  padding-bottom: 10rem;
+}
+
+.navbar-brand{
+  margin-right: auto;
+  margin-left: 8rem;
+  color: rgb(255, 255, 255) !important;
+  font-size: x-large;
+}
+/* .navbar-brand:hover {
+  color: #75b798 !important;
+} */
+
+.navbar-nav {
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-block: 1rem;
+    justify-content: end;
+}
+
+.navlink-style {
+    font-size: 1rem;
+    letter-spacing: 0.2rem;
+    color: rgb(255, 255, 255) !important;
+    text-transform: uppercase;
+    margin-inline: 0.6rem;
+
+}
+.navlink-style:hover {
+  color: #75b798 !important;
 }

@@ -1,50 +1,42 @@
-import { Container, Nav, Row, Col } from 'react-bootstrap'
+import { Container, Row, Col, Button } from 'react-bootstrap'
 import { Link } from "react-router-dom"
 
 // Components
-import NavBar from './components/NavBar.jsx'
 
 // Styles
 import '/src/css/Home.css'
 
 // Images
-import girl from './assets/girl.png'
-import programming_language from './assets/programming-language.png'
-import communicate from './assets/communicate.png'
+import grad from './assets/grad.JPG'
 
 function Home() {
     return (
         <>
-            <NavBar />
-            <Container className='title'>
-                <h1 className='header' > Hi! I'm Cinthya.</h1>
-                <h2 className='header' style={{ fontStyle: 'italic' }}> An aspiring software developer.</h2>
-            </Container>
+            <div style={{padding: '1rem'}}> </div>
+            <h1> Hi! I'm Cinthya.</h1>
+            <h2 style={{ fontStyle: 'italic' }}> An aspiring software developer.</h2>
 
-            <div style={{ padding: '1.5rem' }}></div>
-            <h3 className='header'> I'm passionate about providing solutions and crafting experiences that are</h3>
-            <h3 className='header'> engaging, accessible, and user-centric. </h3>
+            <div style={{ paddingTop: '2rem'}}>
+            <h3> I'm passionate about providing solutions and crafting experiences that are engaging, accessible, and user-centric.</h3>
+            </div>
+            
+            <p> LinkedIn | GitHub </p>
 
-            <div style={{ margin: '6rem' }}></div>
-            <p> Click the icons below to explore more about me and my work! (WIP) </p>
+            <div style={{ padding: '0.5rem' }}></div>
+            <div>
+                <a href='https://docs.google.com/document/d/1woOihEDwL7uwB-VvrNdovDhoJpQYoE-AnxLe6WzNUvM/edit?usp=sharing' target="_blank" rel="noreferrer">
+                    <Button variant="dark"> CV </Button>{' '}
+                </a>
+            </div>
 
-            <Container style={{ maxWidth: '500px' }}>
-                <Row>
-                    <Col xs={12} md={6} lg={4} xl={4} xxl={4}>
-                        <Nav.Link as={Link} to="/portfolio/about">
-                            <img src={girl} className="logo" alt="Girl icon created by Victoruler" />
-                        </Nav.Link>
+            <Container style={{ paddingTop: '4rem' }}>
+                <Row >
+                    <Col xs={12} md={6}>
+                        <img src={grad} alt="My grandparents and I after commencement." className='image' />
                     </Col>
-                    <Col xs={12} md={6} lg={4} xl={4} xxl={4}>
-                        <Nav.Link as={Link} to="/portfolio/projects">
-                            <img src={programming_language} className="logo" alt="Programming language icons created by Bamicon" />
-                        </Nav.Link>
-                    </Col >
-
-                    <Col xs={12} md={6} lg={4} xl={4} xxl={4}>
-                        <Nav.Link as={Link} to="/portfolio/contact">
-                            <img src={communicate} className="logo" alt="Contact icons created by srip" />
-                        </Nav.Link>
+                    <Col>
+                        <h2 className='about-me-title'> About me </h2>
+                        <p className='about-me'> I recently graduated from the University of Wisconsin-Madison with a B.S. in Computer Science and a minor in Integrated Liberal Studies. </p>
                     </Col>
                 </Row>
             </Container>

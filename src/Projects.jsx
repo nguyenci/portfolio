@@ -1,9 +1,8 @@
 import { useState } from 'react'
 import { Container, Card, Row, Col } from 'react-bootstrap'
-import { Link, Outlet } from "react-router-dom"
+import { Link } from "react-router-dom"
 
 // Components
-import NavBar from './components/NavBar.jsx'
 
 // Styles
 import '/src/css/Home.css'
@@ -16,10 +15,9 @@ import placeholder from './assets/placeholder.jpg'
 function Projects() {
     return (
         <>
-            <NavBar />
-
-            <div className='title'><h1>Projects.</h1></div>
-            <p style={{ paddingBottom: '3rem' }}> A collection of sites and programs I've created over the years.</p>
+            <div style={{padding: '1rem'}}> </div>
+            <div><h1>Projects.</h1></div>
+            <h3 style={{ paddingBottom: '3rem' }}> A collection of sites and programs I've created over the years.</h3>
 
             <Container style={{ maxWidth: '1200px' }}>
                 <Row style={{}} xs={12} md={2} lg={2} xl={2} xxl={2}>

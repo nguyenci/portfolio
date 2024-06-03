@@ -11,6 +11,7 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  min-height: 100dvh;
 }
 
 a {
@@ -19,28 +20,47 @@ a {
   text-decoration: inherit;
 }
 a:hover {
-  color: #db2424;
+  color: #75b798;
 }
 
-/* body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-} */
+body {
+  display: block;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
 
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+  color: black;
+  font-family: Garamond, 'Times New Roman', Times, serif;
+  text-align: center;
+  font-size: 4rem;
 }
 
 h2 {
-  font-size: 1.75em;
+  font-size: 2em;
+  font-family: Garamond, 'Times New Roman', Times, serif;
+}
+
+h3 {
+  font-family: Garamond, 'Times New Roman', Times, serif;
+  text-align: center;
+  font-size: 1.30rem;
+}
+
+p {
+  font-family: Garamond, 'Times New Roman', Times, serif;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.btn {
+  font-size: 0.75em !important;
 }
 
 button {
-  border-radius: 8px;
+  border-radius: 9px;
   border: 1px solid transparent;
   padding: 0.6em 1.2em;
   font-size: 1em;
@@ -52,7 +72,7 @@ button {
 }
 
 button:hover {
-  border-color: #d81d2c;
+  border-color: #75b798;
 }
 
 button:focus,
@@ -66,7 +86,7 @@ button:focus-visible {
     background-color: #ffffff;
   }
   a:hover {
-    color: #747bff;
+    color: #75b798;
   }
   button {
     background-color: #f9f9f9;

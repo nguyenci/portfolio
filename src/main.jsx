@@ -5,13 +5,11 @@ import "bootstrap/dist/css/bootstrap.min.css"
 // Pages
 import App from './App.jsx'
 import Home from './Home.jsx'
-import About from './About.jsx'
 import Projects from './Projects.jsx'
 import Contact from './Contact.jsx'
 
 // Styles
 import '/src/css/index.css'
-
 
 const router = createBrowserRouter([
   {
@@ -21,10 +19,6 @@ const router = createBrowserRouter([
       {
         path: "/portfolio/",
         element: <Home />,
-      },
-      {
-        path: "/portfolio/about",
-        element: <About />,
       },
       {
         path: "/portfolio/projects",
