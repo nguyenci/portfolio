@@ -13,8 +13,8 @@ function NavBar() {
                     <Nav >
                         <Navbar.Brand href="/"> {'<C />'} </Navbar.Brand>
                         <Nav.Link className="navlink-style" href="/portfolio/"> Home </Nav.Link>
-                        <Nav.Link className="navlink-style" href="/portfolio/projects">Projects</Nav.Link>
-                        <Nav.Link className="navlink-style" style={{ marginRight: '30px' }} href="/portfolio/contact">Contact</Nav.Link>
+                        <Nav.Link className="navlink-style" href="/portfolio/routes/projects">Projects</Nav.Link>
+                        <Nav.Link className="navlink-style" style={{ marginRight: '30px' }} href="/portfolio/routes/contact">Contact</Nav.Link>
                     </Nav>
                 
                 </Container>

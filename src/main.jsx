@@ -2,17 +2,18 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import "bootstrap/dist/css/bootstrap.min.css"
+
 // Pages
 import App from './App.jsx'
-import Home from './Home.jsx'
-import Projects from './Projects.jsx'
-import Contact from './Contact.jsx'
+import Home from './routes/Home.jsx'
+import Projects from './routes/Projects.jsx'
+import Contact from './routes/Contact.jsx'
 
 // Styles
 import '/src/css/index.css'
 
 const router = createBrowserRouter([
-  {
+  { 
     path: "/portfolio/",
     element: <App />,
     children: [
@@ -21,11 +22,11 @@ const router = createBrowserRouter([
         element: <Home />,
       },
       {
-        path: "/portfolio/projects",
+        path: "/portfolio/routes/projects",
         element: <Projects />,
       },
       {
-        path: "/portfolio/contact",
+        path: "/portfolio/routes/contact",
         element: <Contact />,
       }
     ]
@@ -34,6 +35,7 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
+    <div className="gradient-background"></div>
     <RouterProvider router={router} />
   </React.StrictMode>,
 )

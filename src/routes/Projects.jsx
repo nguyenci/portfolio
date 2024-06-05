@@ -3,6 +3,7 @@ import { Container, Card, Row, Col } from 'react-bootstrap'
 import { Link } from "react-router-dom"
 
 // Components
+import AnimatedTitle from '../components/AnimatedTitle'
 
 // Styles
 import '/src/css/Home.css'
@@ -10,13 +11,13 @@ import '/src/css/App.css'
 import '/src/css/Projects.css'
 
 // Images
-import placeholder from './assets/placeholder.jpg'
+import placeholder from './../assets/placeholder.jpg'
 
 function Projects() {
     return (
         <>
             <div style={{padding: '1rem'}}> </div>
-            <div><h1>Projects.</h1></div>
+            <AnimatedTitle text="Projects." />
             <h3 style={{ paddingBottom: '3rem' }}> A collection of sites and programs I've created over the years.</h3>
 
             <Container style={{ maxWidth: '1200px' }}>
