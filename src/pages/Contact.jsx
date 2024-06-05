@@ -18,26 +18,26 @@ function Contact() {
             <AnimatedTitle text="Contact." />
             <h3 style={{ paddingTop: '1rem', paddingBottom: '4rem' }}> LinkedIn | GitHub </h3>
 
-            <Container className='form.container' sm={{span: 100}}>
+            <Container className='form.container' sm={{ span: 100 }}>
                 <Form className='form' >
                     <Form.Group as={Row} className="mb-3" controlId="formHorizontalName">
-                        <Form.Label column sm={2} style={{textAlign: 'right'}}> Full Name </Form.Label>
+                        <Form.Label column sm={2} style={{ textAlign: 'right' }}> Full Name </Form.Label>
                         <Form.Control type="name" placeholder="Jane Doe" />
                     </Form.Group>
 
                     <Form.Group as={Row} className="mb-3" controlId="formHorizontalEmail">
-                        <Form.Label column sm={2} style={{textAlign: 'right'}}> Email </Form.Label>
-                        <Form.Control  type="email" placeholder="janedoe@email.com" />
+                        <Form.Label column sm={2} style={{ textAlign: 'right' }}> Email </Form.Label>
+                        <Form.Control type="email" placeholder="janedoe@email.com" />
 
                     </Form.Group>
 
                     <Form.Group as={Row} className="mb-3" controlId="formHorizontalMsg">
-                        <Form.Label column sm={2} style={{textAlign: 'right'}}> Message </Form.Label>
-                        <Form.Control type="msg" placeholder="Let me know why you want to contact me!" />
+                        <Form.Label column sm={2} style={{ textAlign: 'right' }}> Message </Form.Label>
+                        <Form.Control type="msg" placeholder="I'd like to contact you about..." />
                     </Form.Group>
 
                     <Form.Group as={Row} className="submit-button">
-                        <Col> <Button type="submit"> Submit </Button>
+                        <Col> <Button variant="light" type="submit"> Submit </Button>
                         </Col>
                     </Form.Group>
                 </Form>

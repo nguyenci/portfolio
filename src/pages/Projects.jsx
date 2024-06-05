@@ -16,11 +16,11 @@ import placeholder from './../assets/placeholder.jpg'
 function Projects() {
     return (
         <>
-            <div style={{padding: '1rem'}}> </div>
+            <div style={{ padding: '1rem' }}> </div>
             <AnimatedTitle text="Projects." />
-            <h3 style={{ paddingTop: '1rem', paddingBottom: '4rem'}}> A collection of sites and programs I've created over the years.</h3>
+            <div style={{ padding: '2rem' }}></div>
 
-            <Container style={{ maxWidth: '1200px' }}>
+            <Container style={{ maxWidth: '1280px' }}>
                 <Row style={{}} xs={12} md={2} lg={2} xl={2} xxl={2}>
                     <Col>
                         <Card>
@@ -77,10 +77,9 @@ function Projects() {
                             </Card.Body>
                         </Card>
                     </Col>
-
                 </Row>
-
             </Container>
+            <div style={{ padding: '4rem' }}> </div>
 
         </>
     )

@@ -37,7 +37,6 @@ p {
 .btn {
   font-size: 1em !important;
   border: 3px solid transparent;
-  background-color: #000000;
   padding-top: 12px;
   padding-inline: 15px;
   transition: transform 0.5s;
@@ -65,8 +64,8 @@ p {
 
 .gradient-background {
   background: linear-gradient(45deg, #fcf5e0, #f8e1ff, #b7e8ff);
-  height: 100vh;
-  width: 100vw;
+  min-height: 100vh;
+  min-width: 100vw;
   z-index: -1;
   position: fixed;
 }
