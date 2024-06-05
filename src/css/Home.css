@@ -1,45 +1,16 @@
-p {
-  font-family: 'Garamond', 'Times New Roman', Times, serif;
-  text-align: center;
-  font-size: 10px;
-  font-weight: lighter;
-}
-
-.image {
-  width: 500px;
-  height: auto;
-  border-radius: 100%;
-  margin-bottom: 3rem;
-}
-
-.about-me-title {
-  font-family: Garamond, 'Times New Roman', Times, serif;
-  font-size: 1.7rem;
-  text-align: left;
-  margin-inline: 22%;
-  font-weight: bolder;
-}
-
-.desc {
-  margin-inline: 10%;
-  text-align: left;
-  flex-wrap: nowrap;
-  position: sticky;
-}
-
-.about-me {
-  font-size: 1.1rem;
-}
-
 .header-container {
   display: flex; 
   justify-content: space-around;
   align-self: center;
-  
+  align-items: center;
 }
 
-.icon-top {
-  font-size: xx-large;
+.centered {
+  display: flex;
+  justify-content: center; /* Horizontally center */
+  align-items: center; /* Vertically center */
+  flex-direction: column;
+  height: 80vh;
 }
 
 .icon-left {
@@ -51,4 +22,11 @@ p {
   font-size: 4rem; 
   margin-top: 10.5rem;
   color: #f8f9fa;
+}
+
+.footer-h6 {
+  color: rgb(0, 0, 0);
+  font-size: small;
+  justify-content: center;
+  font-weight: lighter;
 }

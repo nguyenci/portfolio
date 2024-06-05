@@ -18,7 +18,7 @@ function Projects() {
         <>
             <div style={{padding: '1rem'}}> </div>
             <AnimatedTitle text="Projects." />
-            <h3 style={{ paddingBottom: '3rem' }}> A collection of sites and programs I've created over the years.</h3>
+            <h3 style={{ paddingTop: '1rem', paddingBottom: '4rem'}}> A collection of sites and programs I've created over the years.</h3>
 
             <Container style={{ maxWidth: '1200px' }}>
                 <Row style={{}} xs={12} md={2} lg={2} xl={2} xxl={2}>

@@ -1,0 +1,13 @@
+.form-control {
+    width: 35%
+}
+
+.mb-3 {
+    transform: translateX(20%);
+}
+
+.submit-button {
+    transform: translateX(18%);
+}
+
+

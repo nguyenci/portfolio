@@ -1,9 +1,9 @@
 .card {
     margin-block-end: 40px;
     margin-inline: 50px;
-    transition: transform 0.4s;
+    /* transition: transform 0.2s; */
 }
 
-.card:hover {
-    transform: scale(1.05); 
-  }
+/* .card:hover {
+    transform: scale(1.02); 
+  } */

@@ -4,7 +4,6 @@
   justify-content: center;
   min-height: 100dvh;
   min-width: 100dvh;
-  padding-bottom: 10rem;
 }
 
 .navbar-nav {
@@ -17,16 +16,19 @@
   padding-block: 0.5rem;
   justify-content: end;
   z-index: 3;
+  align-items: center;
 }
 .navbar-brand{
   margin-right: auto;
-  color: rgb(255, 255, 255) !important;
   margin-left: 8rem;
-  font-size: x-large;
 }
 
-.navbar-brand:hover {
-  color: #dabeff !important;
+.C {
+  color: #ffffff !important;
+  font-family: Garamond, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.C:hover {
+  color: #bee7ff !important;
 }
 
 .navlink-style {
@@ -35,7 +37,6 @@
     color: rgb(255, 255, 255) !important;
     text-transform: uppercase;
     margin-inline: 0.6rem;
-
 }
 .navlink-style:hover {
   color: #bee7ff !important;

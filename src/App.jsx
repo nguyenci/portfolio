@@ -1,4 +1,5 @@
-import React, { Container} from 'react'
+import React from 'react'
+import { Container } from 'react-bootstrap'
 import { Outlet } from 'react-router-dom'
 
 import NavBar from './components/NavBar.jsx'
@@ -8,7 +9,7 @@ function App() {
 
   return (
     <>
-      <NavBar/>
+      <NavBar />
       <Outlet />
     </>
   )
