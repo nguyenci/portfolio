@@ -19,7 +19,7 @@ function Home() {
     return (
         <>
             <div className='centered'>
-                <Container className='header-container' >
+                <Container className='header-container' xs={6} md={4} lg={4} xl={4}>
                     <Row>
                         <Col>
                             <PiStarFourFill className='icon-left' />
@@ -36,19 +36,19 @@ function Home() {
                 <h3 style={{ paddingTop: '1rem' }}> An aspiring software developer.</h3>
 
                 <div style={{ padding: '1rem' }}></div>
-                <div>
-                    <a href='https://docs.google.com/document/d/1woOihEDwL7uwB-VvrNdovDhoJpQYoE-AnxLe6WzNUvM/edit?usp=sharing' target="_blank" rel="noreferrer">
-                        <Button variant="light"> <h4>Resumé</h4> </Button>{' '}
-                    </a>
-                </div>
+
+                <a href='https://docs.google.com/document/d/1woOihEDwL7uwB-VvrNdovDhoJpQYoE-AnxLe6WzNUvM/edit?usp=sharing' target="_blank" rel="noreferrer">
+                    <Button variant="light"> <h4>Resumé</h4> </Button>{' '}
+                </a>
+
             </div>
 
             <ToastContainer position='bottom-end' className="toastContainer">
                 {/* TODO: make sure state persists after navigating to a diff page */}
-                <Toast show={showToast} onClose={toggleShowToast} style={{ boxShadow: 'none' }}> 
+                <Toast show={showToast} onClose={toggleShowToast} style={{ boxShadow: 'none' }}>
                     <Toast.Header>
                         <img style={{ width: '20px', height: '20px' }} src={info} className="rounded me-2" alt="Information icon" />
-                        <strong className="me-auto" style={{fontFamily: 'Unbounded'}}>Announcement</strong>
+                        <strong className="me-auto" style={{ fontFamily: 'Unbounded' }}>Announcement</strong>
                     </Toast.Header>
                     <Toast.Body style={{ textAlign: 'left', fontFamily: 'Unbounded' }}>
                         Mobile version coming soon!
@@ -57,10 +57,13 @@ function Home() {
             </ToastContainer>
 
             <Container className='footer-h6'>
+            <Container>
                 <footer>
                     Made with ❤️ by Cinthya Nguyen
                 </footer>
             </Container>
+            </Container>
+            
         </>
     )
 }
