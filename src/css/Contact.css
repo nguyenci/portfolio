@@ -1,13 +1,16 @@
+.form-title-container {
+    transform: translateX(-13.5%);
+    padding-bottom: 1rem;
+}
+
 .form-control {
     width: 35%
 }
 
 .mb-3 {
-    transform: translateX(18%);
+    transform: translateX(-6%);
 }
 
 .submit-button {
-    transform: translateX(14%);
+    transform: translateX(16%);
 }
-
-

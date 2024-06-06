@@ -14,11 +14,14 @@ export default function Contact() {
 
             <div style={{ padding: '1rem' }}> </div>
             <AnimatedTitle text="Contact." />
-            <h3 style={{ paddingTop: '1rem', paddingBottom: '4rem' }}> LinkedIn | GitHub </h3>
+            <h4 style={{ paddingTop: '1rem', paddingBottom: '4rem' }}> LinkedIn | GitHub </h4>
 
-            <h4> Get in touch </h4>
+            <Container className='form-title-container'>
+                <h3> Get in touch </h3>
+            </Container>
+
             <Container className='form.container' sm={{ span: 100 }}>
-         
+
                 <Form className='form' >
                     <Form.Group as={Row} className="mb-3" controlId="formHorizontalName">
                         <Form.Label column sm={2} style={{ textAlign: 'right' }}> <h6>Full Name</h6> </Form.Label>

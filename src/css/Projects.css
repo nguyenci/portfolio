@@ -2,6 +2,7 @@
     margin-block-end: 40px;
     margin-left: 50px;
     transition: transform 0.2s;
+    border: transparent
 }
 
 .card:hover {

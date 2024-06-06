@@ -21,27 +21,23 @@ export default function Home() {
 
     return (
         <>
-            <div className='centered'>
+            <div className='title-button-container'>
+
                 <Container className='header-container' xs={6} md={4} lg={4} xl={4}>
                     <Row>
                         <Col xs={1} md={2} lg={2} xl={2}>
                             <PiStarFourFill className='icon-left' />
                         </Col>
-                        <Col xs={10} md={8} lg={8} xl={8} style={{ maxWidth: '500px' }}>
+                        <Col xs={10} md={8} lg={8} xl={8} style={{ maxWidth: '600px'}}>
                             <AnimatedTitle text="Hi! I'm Cinthya." />
                         </Col>
                         <Col xs={1} md={2} lg={2} xl={2}>
-                            <Container style={{ alignItems: 'right' }}>
-                                <PiStarFourFill className='icon-right' />
-
-                            </Container>
+                            <PiStarFourFill className='icon-right' />
                         </Col>
                     </Row>
                 </Container>
 
-                <h3 style={{ paddingTop: '1rem' }}> An aspiring software developer.</h3>
-
-                <div style={{ padding: '1rem' }}></div>
+                <h3 style={{ paddingBlock: '1rem'}}> An aspiring software developer.</h3>
 
                 <a href='https://docs.google.com/document/d/1woOihEDwL7uwB-VvrNdovDhoJpQYoE-AnxLe6WzNUvM/edit?usp=sharing' target="_blank" rel="noreferrer">
                     <Button variant="light"> <h4>Resumé</h4> </Button>{' '}
