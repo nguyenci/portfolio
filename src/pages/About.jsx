@@ -1,5 +1,5 @@
 import AnimatedTitle from '../components/AnimatedTitle'
-import { Container } from 'react-bootstrap'
+import { Container, Card, Row, Col } from 'react-bootstrap'
 
 //Images
 
@@ -11,13 +11,53 @@ export default function About() {
         <>
             <div style={{ padding: '1rem' }}></div>
             <AnimatedTitle text="About." />
-            <div style={{ padding: '1rem' }}></div>
+            <div style={{ padding: '2rem' }}></div>
+            
+            
             <img src={grad} style={{ width: '20%', borderRadius: '30px' }} />
+            <div style={{ padding: '1rem' }}></div>
+
             <Container>
-                <h3>Skills</h3>
-                <h3>Education</h3>
-                <h3>Experience</h3>
-                
+                <Card>
+                    <Card.Body>
+                        <Card.Title><h4>SKILLS</h4></Card.Title>
+                        <Card.Text>
+                            This is a longer card with supporting text below as a natural
+                            lead-in to additional content. This content is a little bit
+                            longer.
+                        </Card.Text>
+                    </Card.Body>
+                </Card>
+
+                <Container>
+                    <Row>
+                        <Col>
+                            <Card>
+                                <Card.Body>
+                                    <Card.Title><h4>EDUCATION</h4></Card.Title>
+                                    <Card.Text>
+                                        This is a longer card with supporting text below as a natural
+                                        lead-in to additional content. This content is a little bit
+                                        longer.
+                                    </Card.Text>
+                                </Card.Body>
+                            </Card>
+                        </Col>
+
+                        <Col>
+                            <Card>
+                                <Card.Body>
+                                    <Card.Title><h4>EXPERIENCE</h4></Card.Title>
+                                    <Card.Text>
+                                        This is a longer card with supporting text below as a natural
+                                        lead-in to additional content. This content is a little bit
+                                        longer.
+                                    </Card.Text>
+                                </Card.Body>
+                            </Card>
+                        </Col>
+                    </Row>
+                </Container>
             </Container>
         </>
     )

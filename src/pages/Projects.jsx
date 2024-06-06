@@ -18,13 +18,29 @@ export default function Projects() {
             <AnimatedTitle text="Projects." />
             <div style={{ padding: '2rem' }}></div>
 
+            <Container style={{ maxWidth: '700px' }}>
+                <Card>
+                    <Card.Img variant="top" src={placeholder} />
+                    <Card.Header><h5>Featured</h5></Card.Header>
+
+                    <Card.Body>
+                        <Card.Title><h4>Project Name</h4></Card.Title>
+                        <Card.Text>
+                            This is a longer card with supporting text below as a natural
+                            lead-in to additional content. This content is a little bit
+                            longer.
+                        </Card.Text>
+                    </Card.Body>
+                </Card>
+            </Container>
+
             <Container style={{ maxWidth: '1280px' }}>
                 <Row xs={2} md={2} lg={2} xl={2} xxl={2}>
                     <Col>
                         <Card>
                             <Card.Img variant="top" src={placeholder} />
                             <Card.Body>
-                                <Card.Title>Example 1</Card.Title>
+                                <Card.Title><h4>Project Name</h4></Card.Title>
                                 <Card.Text>
                                     This is a longer card with supporting text below as a natural
                                     lead-in to additional content. This content is a little bit
@@ -38,7 +54,7 @@ export default function Projects() {
                         <Card>
                             <Card.Img variant="top" src={placeholder} />
                             <Card.Body>
-                                <Card.Title>Example 2</Card.Title>
+                                <Card.Title><h4>Project Name</h4></Card.Title>
                                 <Card.Text>
                                     This is a longer card with supporting text below as a natural
                                     lead-in to additional content. This content is a little bit
@@ -52,7 +68,7 @@ export default function Projects() {
                         <Card>
                             <Card.Img variant="top" src={placeholder} />
                             <Card.Body>
-                                <Card.Title>Example 3</Card.Title>
+                                <Card.Title><h4>Project Name</h4></Card.Title>
                                 <Card.Text>
                                     This is a longer card with supporting text below as a natural
                                     lead-in to additional content. This content is a little bit
@@ -66,7 +82,7 @@ export default function Projects() {
                         <Card>
                             <Card.Img variant="top" src={placeholder} />
                             <Card.Body>
-                                <Card.Title>Example 4</Card.Title>
+                                <Card.Title><h4>Project Name</h4></Card.Title>
                                 <Card.Text>
                                     This is a longer card with supporting text below as a natural
                                     lead-in to additional content. This content is a little bit
