@@ -2,7 +2,7 @@ import { Container, Nav, Navbar } from 'react-bootstrap'
 
 import '/src/css/NavBar.css'
 
-function NavBar() {
+export default function NavBar() {
 
     return (
         <>
@@ -27,5 +27,3 @@ function NavBar() {
         </>
     )
 }
-
-export default NavBar

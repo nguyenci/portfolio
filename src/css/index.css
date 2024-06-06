@@ -1,6 +1,5 @@
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
 
   color-scheme: light dark;
   color: rgb(255, 255, 255);
@@ -9,11 +8,12 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  min-height: 100dvh;
-  min-width: 100dvh;
-
   justify-content: center;
   align-items: center;
+  text-align: center;
+
+  /* min-height: 100dvh;
+  min-width: 100dvw; */
 }
 
 h2 {
@@ -72,8 +72,10 @@ p {
 
 .gradient-background {
   background: linear-gradient(45deg, #fcf5e0, #f8e1ff, #b7e8ff);
-  min-height: 100vh;
-  min-width: 100vw;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
   z-index: -1;
   position: fixed;
 }

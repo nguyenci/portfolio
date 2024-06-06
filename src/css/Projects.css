@@ -1,6 +1,6 @@
 .card {
     margin-block-end: 40px;
-    margin-inline: 50px;
+    margin-left: 50px;
     transition: transform 0.2s;
 }
 

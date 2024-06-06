@@ -8,6 +8,7 @@
     justify-content: end;
     z-index: 3;
     align-items: center;
+    flex: wrap;
   }
   .navbar-brand{
     margin-right: auto;
@@ -25,13 +26,13 @@
   
   .navlink-style {
       font-size: 1rem;
-      /* letter-spacing: 0.1rem; */
+      letter-spacing: 2px;
       color: rgb(255, 255, 255) !important;
       font-family: "Unbounded", system-ui, Avenir, Helvetica, Arial, sans-serif;
-      text-transform: uppercase;
+      /* text-transform: uppercase; */
       margin-inline: 0.6rem;
-      font-weight: 600;
+      font-weight: 400;
   }
   .navlink-style:hover {
-    color: #bee7ff !important;
+    color: #ffbef1 !important;
   }

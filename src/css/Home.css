@@ -19,18 +19,8 @@
 
 .icon-right {
   font-size: 4rem;
-  margin-top: 10.5rem;
+  margin-top: 9rem;
   color: #f8f9fa;
-}
-
-.footer-h6.container{
-  display: flex;
-  color: rgb(0, 0, 0);
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: small;
-  justify-content: center;
-  font-weight: lighter;
-  align-items: end;
 }
 
 .toastContainer {

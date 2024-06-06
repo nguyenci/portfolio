@@ -6,11 +6,9 @@ import { Link } from "react-router-dom"
 import AnimatedTitle from '../components/AnimatedTitle'
 
 // Styles
-import '/src/css/Home.css'
-import '/src/css/App.css'
 import '/src/css/Contact.css'
 
-function Contact() {
+export default function Contact() {
     return (
         <>
 
@@ -21,23 +19,23 @@ function Contact() {
             <Container className='form.container' sm={{ span: 100 }}>
                 <Form className='form' >
                     <Form.Group as={Row} className="mb-3" controlId="formHorizontalName">
-                        <Form.Label column sm={2} style={{ textAlign: 'right' }}> Full Name </Form.Label>
+                        <Form.Label column sm={2} style={{ textAlign: 'right' }}> <h4>Full Name</h4> </Form.Label>
                         <Form.Control type="name" placeholder="Jane Doe" />
                     </Form.Group>
 
                     <Form.Group as={Row} className="mb-3" controlId="formHorizontalEmail">
-                        <Form.Label column sm={2} style={{ textAlign: 'right' }}> Email </Form.Label>
+                        <Form.Label column sm={2} style={{ textAlign: 'right' }}> <h4>Email</h4> </Form.Label>
                         <Form.Control type="email" placeholder="janedoe@email.com" />
 
                     </Form.Group>
 
                     <Form.Group as={Row} className="mb-3" controlId="formHorizontalMsg">
-                        <Form.Label column sm={2} style={{ textAlign: 'right' }}> Message </Form.Label>
+                        <Form.Label column sm={2} style={{ textAlign: 'right' }}> <h4>Message</h4> </Form.Label>
                         <Form.Control type="msg" placeholder="I'd like to contact you about..." />
                     </Form.Group>
 
                     <Form.Group as={Row} className="submit-button">
-                        <Col> <Button variant="light" type="submit"> Submit </Button>
+                        <Col> <Button variant="light" type="submit"> <h4>Submit</h4> </Button>
                         </Col>
                     </Form.Group>
                 </Form>
@@ -45,5 +43,3 @@ function Contact() {
         </>
     )
 }
-
-export default Contact

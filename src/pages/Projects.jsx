@@ -6,14 +6,12 @@ import { Link } from "react-router-dom"
 import AnimatedTitle from '../components/AnimatedTitle'
 
 // Styles
-import '/src/css/Home.css'
-import '/src/css/App.css'
 import '/src/css/Projects.css'
 
 // Images
 import placeholder from './../assets/placeholder.jpg'
 
-function Projects() {
+export default function Projects() {
     return (
         <>
             <div style={{ padding: '1rem' }}> </div>
@@ -21,7 +19,7 @@ function Projects() {
             <div style={{ padding: '2rem' }}></div>
 
             <Container style={{ maxWidth: '1280px' }}>
-                <Row style={{}} xs={12} md={2} lg={2} xl={2} xxl={2}>
+                <Row xs={2} md={2} lg={2} xl={2} xxl={2}>
                     <Col>
                         <Card>
                             <Card.Img variant="top" src={placeholder} />
@@ -84,5 +82,3 @@ function Projects() {
         </>
     )
 }
-
-export default Projects

@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { Container, Row, Col, Button, Toast, ToastContainer } from 'react-bootstrap'
 import { PiStarFourFill } from "react-icons/pi"
 
@@ -7,28 +7,34 @@ import AnimatedTitle from '../components/AnimatedTitle'
 
 // Styles
 import '/src/css/Home.css'
-import '/src/css/App.css'
 
 // Images
 import info from "./../assets/info.jpg"
-function Home() {
+export default function Home() {
 
-    const [showToast, setShowToast] = useState(true)
+    const [showToast, setShowToast] = useState(false)
     const toggleShowToast = () => setShowToast(!showToast)
+
+    useEffect(() => {
+        toggleShowToast()
+    }, [])
 
     return (
         <>
             <div className='centered'>
                 <Container className='header-container' xs={6} md={4} lg={4} xl={4}>
                     <Row>
-                        <Col>
+                        <Col xs={1} md={2} lg={2} xl={2}>
                             <PiStarFourFill className='icon-left' />
                         </Col>
-                        <Col style={{ maxWidth: '500px' }}>
+                        <Col xs={10} md={8} lg={8} xl={8} style={{ maxWidth: '500px' }}>
                             <AnimatedTitle text="Hi! I'm Cinthya." />
                         </Col>
-                        <Col>
-                            <PiStarFourFill className='icon-right' />
+                        <Col xs={1} md={2} lg={2} xl={2}>
+                            <Container style={{ alignItems: 'right' }}>
+                                <PiStarFourFill className='icon-right' />
+
+                            </Container>
                         </Col>
                     </Row>
                 </Container>
@@ -56,17 +62,6 @@ function Home() {
                 </Toast>
             </ToastContainer>
 
-            <Container className='footer-h6'>
-            <Container>
-                <footer>
-                    Made with ❤️ by Cinthya Nguyen
-                </footer>
-            </Container>
-            </Container>
-            
         </>
     )
 }
-
-export default Home
-
