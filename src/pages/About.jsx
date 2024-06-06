@@ -11,8 +11,8 @@ export default function About() {
     return (
         <>
             <div style={{ padding: '1rem' }}></div>
-            <AnimatedTitle text="About." />.
-            <h4>! WIP ! </h4>
+            <AnimatedTitle text="About." />
+            <div style={{ padding: '1rem' }}></div>
             <img src={grad} style={{ width: '20%', borderRadius: '30px' }} />
             <Container>
                 <h3>Skills</h3>

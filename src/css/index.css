@@ -18,16 +18,24 @@
 
 h2 {
   line-height: 1;
+  font-family: "Unbounded", system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 5rem !important;
+  font-style: normal;
   color: #bb8cc9;
 }
 
 h3 {
   font-size: 2rem;
   color: #866591;
+  font-family: "Unbounded", system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
 }
 
 h4 {
   font-size: 1.25rem;
+  font-family: "Unbounded", system-ui, Avenir, Helvetica, Arial, sans-serif;
+
 }
 
 p {
@@ -38,7 +46,7 @@ p {
   font-size: 1em !important;
   border: 3px solid transparent;
   padding-top: 12px;
-  padding-inline: 15px;
+  padding-bottom: 0px;
   transition: transform 0.5s;
 }
 .btn:hover {

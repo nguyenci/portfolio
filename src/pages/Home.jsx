@@ -47,10 +47,10 @@ function Home() {
                 {/* TODO: make sure state persists after navigating to a diff page */}
                 <Toast show={showToast} onClose={toggleShowToast} style={{ boxShadow: 'none' }}> 
                     <Toast.Header>
-                        <img style={{ width: '20px', height: '20px', textAlign: 'center' }} src={info} className="rounded me-2" alt="Information icon" />
-                        <strong className="me-auto">Announcement</strong>
+                        <img style={{ width: '20px', height: '20px' }} src={info} className="rounded me-2" alt="Information icon" />
+                        <strong className="me-auto" style={{fontFamily: 'Unbounded'}}>Announcement</strong>
                     </Toast.Header>
-                    <Toast.Body style={{ textAlign: 'left' }}>
+                    <Toast.Body style={{ textAlign: 'left', fontFamily: 'Unbounded' }}>
                         Mobile version coming soon!
                     </Toast.Body>
                 </Toast>

@@ -5,38 +5,3 @@
   min-height: 100dvh;
   min-width: 100dvh;
 }
-
-.navbar-nav {
-  background-color: rgba(0, 0, 0, 0.945);
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  display: flex;
-  justify-content: end;
-  z-index: 3;
-  align-items: center;
-}
-.navbar-brand{
-  margin-right: auto;
-  margin-left: 8rem;
-}
-
-.C {
-  color: #ffffff !important;
-  font-family: Garamond, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-.C:hover {
-  color: #ffbef1 !important;
-}
-
-.navlink-style {
-    font-size: 1rem;
-    letter-spacing: 0.2rem;
-    color: rgb(255, 255, 255) !important;
-    text-transform: uppercase;
-    margin-inline: 0.6rem;
-}
-.navlink-style:hover {
-  color: #bee7ff !important;
-}
