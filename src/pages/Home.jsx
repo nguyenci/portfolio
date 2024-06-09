@@ -50,9 +50,9 @@ export default function Home() {
                 <Toast show={showToast} onClose={toggleShowToast} style={{ boxShadow: 'none' }}>
                     <Toast.Header>
                         <img style={{ width: '20px', height: '20px' }} src={info} className="rounded me-2" alt="Information icon" />
-                        <strong className="me-auto" style={{ fontFamily: 'Unbounded' }}>Announcement</strong>
+                        <strong className="me-auto" style={{ fontFamily: 'Josefin Sans', marginTop: '5px' }}>Announcement</strong>
                     </Toast.Header>
-                    <Toast.Body style={{ textAlign: 'left', fontFamily: 'Unbounded' }}>
+                    <Toast.Body style={{ textAlign: 'left', fontFamily: 'Josefin Sans' }}>
                         Mobile version coming soon!
                     </Toast.Body>
                 </Toast>

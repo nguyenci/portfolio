@@ -21,7 +21,7 @@ export default function Projects() {
             <Container style={{ maxWidth: '700px' }}>
                 <Card>
                     <Card.Img variant="top" src={placeholder} />
-                    <Card.Header><h5>Featured</h5></Card.Header>
+                    <Card.Header style={{paddingTop: '20px'}}><h4>Featured</h4></Card.Header>
 
                     <Card.Body>
                         <Card.Title><h4>Project Name</h4></Card.Title>
@@ -68,11 +68,9 @@ export default function Projects() {
                         <Card>
                             <Card.Img variant="top" src={placeholder} />
                             <Card.Body>
-                                <Card.Title><h4>Project Name</h4></Card.Title>
+                                <Card.Title><h4>Coming soon!</h4></Card.Title>
                                 <Card.Text>
-                                    This is a longer card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit
-                                    longer.
+                                  
                                 </Card.Text>
                             </Card.Body>
                         </Card>
@@ -82,11 +80,9 @@ export default function Projects() {
                         <Card>
                             <Card.Img variant="top" src={placeholder} />
                             <Card.Body>
-                                <Card.Title><h4>Project Name</h4></Card.Title>
+                                <Card.Title><h4>Coming soon!</h4></Card.Title>
                                 <Card.Text>
-                                    This is a longer card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit
-                                    longer.
+                                  
                                 </Card.Text>
                             </Card.Body>
                         </Card>
